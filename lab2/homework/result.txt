@@ -1,0 +1,8 @@
+prod [*] :=
+   Angles     0
+CSections  2500
+     Rods  3833
+;
+
+Profit = 323989
+
