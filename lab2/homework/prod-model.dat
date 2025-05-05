@@ -1,0 +1,22 @@
+
+set PRODUCTS := Rods Angles CSections;
+
+param: price_per_tonne :=
+    Rods 33
+    Angles 13
+    CSections 79
+;
+
+param: max_quantity :=
+    Rods 4000
+    Angles 3000
+    CSections 2500
+;
+
+param: hourly_production :=
+    Rods 200
+    Angles 140
+    CSections 120
+;
+
+param week_hours := 40;
